@@ -12,7 +12,7 @@
 
 ## Запуск
 
-Из корня проекта (`C:\git\tst1`):
+Из корня проекта:
 
 ```bash
 python -m netspeed https://example.com/big-image.jpg
@@ -25,6 +25,8 @@ python -m netspeed https://example.com/big-image.jpg
 | `url` | — | http(s)-адрес файла, обязательный |
 | `-n`, `--count` | `10` | число последовательных запросов |
 | `-t`, `--timeout` | `30` | таймаут одного запроса, секунды |
+
+Пример:
 
 ```bash
 python -m netspeed "https://downloader.disk.yandex.ru/preview/95b30f8ca1579fe5b48fbddeb608642c085f831cc5459bf6644b4b979cb636c1/6afb34fc/qIXoc3N2Z8fglz2parGVy298w43VAA76E_y7HD7RNqvidlFaru5Uuu4fxdsbeH2Q7BQRbGTpcoRhiiEc3eH5ug%3D%3D?uid=0&filename=bfoto_ru_4761.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&is_direct_zip_experiment=1&size=2048x2048" -n 5 -t 60
